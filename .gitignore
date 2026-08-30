@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Backend temporary uploads
+backend/temp_uploads/
+
+# Generated pothole crops + PDF reports (runtime artifacts)
+backend/session_captures/
+backend/session_reports/
+
+# Next.js
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
